@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{5395D528-AF55-408C-8AD7-39B1FB6690A6}|Default">
+  <MonoDevelop.Ide.ItemProperties.HelloMarkdown.Desktop PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloMarkdown/HelloMarkdown/MainForm.cs">
+    <Files>
+      <File FileName="HelloMarkdown/HelloMarkdown/MainForm.cs" Line="6" Column="14" />
+      <File FileName="HelloMarkdown/HelloMarkdown/DefaultMarkdown.md" Line="11" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

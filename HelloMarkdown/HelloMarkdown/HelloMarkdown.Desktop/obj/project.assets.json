@@ -1,0 +1,594 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "AtkSharp/3.22.24.29": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.22.24.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/AtkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AtkSharp.dll": {}
+        }
+      },
+      "CairoSharp/3.22.24.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/CairoSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CairoSharp.dll": {}
+        }
+      },
+      "Eto.Forms/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel": "4.3.0",
+          "System.Runtime.Serialization.Primitives": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard1.0/Eto.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Eto.dll": {}
+        },
+        "build": {
+          "build/Eto.Forms.targets": {}
+        }
+      },
+      "Eto.Platform.Gtk/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "[2.4.1]",
+          "GtkSharp": "3.22.24.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/Eto.Gtk.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Eto.Gtk.dll": {}
+        }
+      },
+      "Eto.Platform.Mac64/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net45/Eto.Mac64.dll": {},
+          "lib/net45/MonoMac.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Eto.Mac64.dll": {},
+          "lib/net45/MonoMac.dll": {}
+        },
+        "build": {
+          "build/Eto.Platform.Mac64.targets": {}
+        }
+      },
+      "Eto.Platform.Wpf/2.4.1": {
+        "type": "package",
+        "dependencies": {
+          "Eto.Forms": "[2.4.1]"
+        },
+        "compile": {
+          "lib/net45/Eto.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Eto.Wpf.dll": {}
+        }
+      },
+      "GdkSharp/3.22.24.29": {
+        "type": "package",
+        "dependencies": {
+          "CairoSharp": "3.22.24.29",
+          "GLibSharp": "3.22.24.29",
+          "GioSharp": "3.22.24.29",
+          "PangoSharp": "3.22.24.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/GdkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GdkSharp.dll": {}
+        }
+      },
+      "GioSharp/3.22.24.29": {
+        "type": "package",
+        "dependencies": {
+          "GLibSharp": "3.22.24.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/GioSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GioSharp.dll": {}
+        }
+      },
+      "GLibSharp/3.22.24.29": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/GLibSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GLibSharp.dll": {}
+        }
+      },
+      "GtkSharp/3.22.24.29": {
+        "type": "package",
+        "dependencies": {
+          "AtkSharp": "3.22.24.29",
+          "CairoSharp": "3.22.24.29",
+          "GLibSharp": "3.22.24.29",
+          "GdkSharp": "3.22.24.29",
+          "GioSharp": "3.22.24.29",
+          "PangoSharp": "3.22.24.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/GtkSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/GtkSharp.dll": {}
+        }
+      },
+      "Markdig/0.15.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net40/Markdig.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Markdig.dll": {}
+        }
+      },
+      "Markdown/2.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net451/Markdown.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Markdown.dll": {}
+        }
+      },
+      "PangoSharp/3.22.24.29": {
+        "type": "package",
+        "dependencies": {
+          "CairoSharp": "3.22.24.29",
+          "GLibSharp": "3.22.24.29"
+        },
+        "compile": {
+          "lib/netstandard2.0/PangoSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PangoSharp.dll": {}
+        }
+      },
+      "System.ComponentModel/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Runtime.Serialization",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Runtime.Serialization.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "HelloMarkdown/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.6",
+        "dependencies": {
+          "Eto.Forms": "2.4.1",
+          "Markdig": "0.15.4",
+          "Markdown": "2.2.1"
+        },
+        "compile": {
+          "bin/placeholder/HelloMarkdown.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HelloMarkdown.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AtkSharp/3.22.24.29": {
+      "sha512": "oOA0XUjd3l+13hnaP+gMq02G08bVBUF9Tl1vUvgsiOBmTDEi3d03+6wu4r4F6j9MuMxyJmTmEyZYaGJBs/cCfA==",
+      "type": "package",
+      "path": "atksharp/3.22.24.29",
+      "files": [
+        ".signature.p7s",
+        "atksharp.3.22.24.29.nupkg.sha512",
+        "atksharp.nuspec",
+        "lib/netstandard2.0/AtkSharp.dll"
+      ]
+    },
+    "CairoSharp/3.22.24.29": {
+      "sha512": "bG2Mco99hLT1ttiPZzzuen6dHEgYwK3YTLaI9qXBr5dFZy9q5cfGoGtCKJfqSnQd5cw4HxsZJtLtzkClYU147A==",
+      "type": "package",
+      "path": "cairosharp/3.22.24.29",
+      "files": [
+        ".signature.p7s",
+        "cairosharp.3.22.24.29.nupkg.sha512",
+        "cairosharp.nuspec",
+        "lib/netstandard2.0/CairoSharp.dll"
+      ]
+    },
+    "Eto.Forms/2.4.1": {
+      "sha512": "54AS3jeM6ABsjrKfrIA2+FFqaSrTCdEycpMI7g65lOE7at6E5B02Vxus2WBsSg0dXe5jaMtrawR9trDw37Z+UA==",
+      "type": "package",
+      "path": "eto.forms/2.4.1",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/Eto.Forms.targets",
+        "eto.forms.2.4.1.nupkg.sha512",
+        "eto.forms.nuspec",
+        "lib/netstandard1.0/Eto.dll",
+        "lib/netstandard1.0/Eto.xml"
+      ]
+    },
+    "Eto.Platform.Gtk/2.4.1": {
+      "sha512": "yML+52eT6scsUxJlhJUdorFX+q74T0Mk66wk8+tR2ymZ98ZfkJcsHj0bvHM+NjcHwgmtyG8NspSGZTQxVl7uvg==",
+      "type": "package",
+      "path": "eto.platform.gtk/2.4.1",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.txt",
+        "eto.platform.gtk.2.4.1.nupkg.sha512",
+        "eto.platform.gtk.nuspec",
+        "lib/netstandard2.0/Eto.Gtk.dll"
+      ]
+    },
+    "Eto.Platform.Mac64/2.4.1": {
+      "sha512": "7RJwTUiP0+/ckvDQrPIGzfPPKpFcCSFS4NKvpL0ixDOJnVwEanmhOppr8rpZZ3P1eYccpJzXaPSow6p9P9OYuw==",
+      "type": "package",
+      "path": "eto.platform.mac64/2.4.1",
+      "files": [
+        "LICENSE.txt",
+        "MonoMac-License.txt",
+        "build/Eto.Platform.Mac64.targets",
+        "build/Icon.icns",
+        "build/Info.plist",
+        "build/Launcher32",
+        "build/Launcher64",
+        "build/MacTemplate.targets",
+        "build/README.txt",
+        "build/RunConfiguration.Default.targets",
+        "build/RunConfiguration.Mac.targets",
+        "eto.platform.mac64.2.4.1.nupkg.sha512",
+        "eto.platform.mac64.nuspec",
+        "lib/net45/Eto.Mac64.dll",
+        "lib/net45/MonoMac.dll"
+      ]
+    },
+    "Eto.Platform.Wpf/2.4.1": {
+      "sha512": "9SZRTzjypb8OX021Igy2q1kJAhY6OKJ8QZLmaGLiekue1E6BQnkRKqWTL9Hmlzf4F0Ea50c14XQJoBGrO7y2LQ==",
+      "type": "package",
+      "path": "eto.platform.wpf/2.4.1",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.txt",
+        "eto.platform.wpf.2.4.1.nupkg.sha512",
+        "eto.platform.wpf.nuspec",
+        "lib/net45/Eto.Wpf.dll"
+      ]
+    },
+    "GdkSharp/3.22.24.29": {
+      "sha512": "jlp6ylq5gd2E4QDUuJJzUTmxyxpHak2Fuh9mGrCtvFzW9OufzgCIo3WLT0kpCQAzCD/SBezpl7IW71XhJJ6d4A==",
+      "type": "package",
+      "path": "gdksharp/3.22.24.29",
+      "files": [
+        ".signature.p7s",
+        "gdksharp.3.22.24.29.nupkg.sha512",
+        "gdksharp.nuspec",
+        "lib/netstandard2.0/GdkSharp.dll"
+      ]
+    },
+    "GioSharp/3.22.24.29": {
+      "sha512": "1coAYMa3GVAjLC9Zfx/MdoryTK0cq28JaTB05WHf74g0xH0TpdAjho4JmCotX6b+uUSDasE+gzzR4NP00JbJww==",
+      "type": "package",
+      "path": "giosharp/3.22.24.29",
+      "files": [
+        ".signature.p7s",
+        "giosharp.3.22.24.29.nupkg.sha512",
+        "giosharp.nuspec",
+        "lib/netstandard2.0/GioSharp.dll"
+      ]
+    },
+    "GLibSharp/3.22.24.29": {
+      "sha512": "VwGauxpgrTA2swLi4Ohs0gr4BrgEFI6fNPxKdyXIFENj7cNqYXMM7zuGTbry44tVJAKELO3sx3YV9tIQKrDbcA==",
+      "type": "package",
+      "path": "glibsharp/3.22.24.29",
+      "files": [
+        ".signature.p7s",
+        "glibsharp.3.22.24.29.nupkg.sha512",
+        "glibsharp.nuspec",
+        "lib/netstandard2.0/GLibSharp.dll"
+      ]
+    },
+    "GtkSharp/3.22.24.29": {
+      "sha512": "naSA7S2ACJ7X8qlChto41h0l6VTKs5MLGSziY9iOCmSsxRBM++6sZXQs8sO95gdtVhAxKkz8IwEszdc9YTb3nw==",
+      "type": "package",
+      "path": "gtksharp/3.22.24.29",
+      "files": [
+        ".signature.p7s",
+        "gtksharp.3.22.24.29.nupkg.sha512",
+        "gtksharp.nuspec",
+        "lib/netstandard2.0/GtkSharp.dll"
+      ]
+    },
+    "Markdig/0.15.4": {
+      "sha512": "InyL4iFXt3RHffVxa2dty99uV0/Z3Y9mNXp49FYj6ZObleGAVt2N9FLu75qnZRm8e+N6hDlDdMyUCpIZQbyVqg==",
+      "type": "package",
+      "path": "markdig/0.15.4",
+      "files": [
+        ".signature.p7s",
+        "lib/net35/Markdig.dll",
+        "lib/net35/Markdig.pdb",
+        "lib/net35/Markdig.xml",
+        "lib/net40/Markdig.dll",
+        "lib/net40/Markdig.pdb",
+        "lib/net40/Markdig.xml",
+        "lib/netstandard1.1/Markdig.dll",
+        "lib/netstandard1.1/Markdig.pdb",
+        "lib/netstandard1.1/Markdig.xml",
+        "lib/netstandard2.0/Markdig.dll",
+        "lib/netstandard2.0/Markdig.pdb",
+        "lib/netstandard2.0/Markdig.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/Markdig.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/Markdig.pdb",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/Markdig.xml",
+        "lib/uap10.0/Markdig.dll",
+        "lib/uap10.0/Markdig.pdb",
+        "lib/uap10.0/Markdig.pri",
+        "lib/uap10.0/Markdig.xml",
+        "markdig.0.15.4.nupkg.sha512",
+        "markdig.nuspec"
+      ]
+    },
+    "Markdown/2.2.1": {
+      "sha512": "Jpejl/eE7hMRs6TffefTVBJB933eFXa6gStXaukAkF/zg7h0+1srvYAgx0ua+w94YE7+HXCzOgOjD2XxP1OzMg==",
+      "type": "package",
+      "path": "markdown/2.2.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net451/Markdown.dll",
+        "lib/netstandard1.3/Markdown.dll",
+        "markdown.2.2.1.nupkg.sha512",
+        "markdown.nuspec"
+      ]
+    },
+    "PangoSharp/3.22.24.29": {
+      "sha512": "Y+vsyxsJjAJq5uLztTz9TjCpUFoYvxnOmfJYQomfOSka7Cy+BKh5RlpOanDyQo7cECCCs5ct0bi4kg+oDdcsJg==",
+      "type": "package",
+      "path": "pangosharp/3.22.24.29",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard2.0/PangoSharp.dll",
+        "pangosharp.3.22.24.29.nupkg.sha512",
+        "pangosharp.nuspec"
+      ]
+    },
+    "System.ComponentModel/4.3.0": {
+      "sha512": "e9Uaz/ejdr6AV3NsjsTRgoCiVL5VjbhgSZ5WcKlhZLAiDFVb5DLpqZXxukvqL7DazlFQXm6yX5WfGmdFoeQ6tg==",
+      "type": "package",
+      "path": "system.componentmodel/4.3.0",
+      "files": [
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/System.ComponentModel.dll",
+        "lib/netstandard1.3/System.ComponentModel.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.ComponentModel.dll",
+        "ref/netcore50/System.ComponentModel.xml",
+        "ref/netcore50/de/System.ComponentModel.xml",
+        "ref/netcore50/es/System.ComponentModel.xml",
+        "ref/netcore50/fr/System.ComponentModel.xml",
+        "ref/netcore50/it/System.ComponentModel.xml",
+        "ref/netcore50/ja/System.ComponentModel.xml",
+        "ref/netcore50/ko/System.ComponentModel.xml",
+        "ref/netcore50/ru/System.ComponentModel.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.xml",
+        "ref/netstandard1.0/System.ComponentModel.dll",
+        "ref/netstandard1.0/System.ComponentModel.xml",
+        "ref/netstandard1.0/de/System.ComponentModel.xml",
+        "ref/netstandard1.0/es/System.ComponentModel.xml",
+        "ref/netstandard1.0/fr/System.ComponentModel.xml",
+        "ref/netstandard1.0/it/System.ComponentModel.xml",
+        "ref/netstandard1.0/ja/System.ComponentModel.xml",
+        "ref/netstandard1.0/ko/System.ComponentModel.xml",
+        "ref/netstandard1.0/ru/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hans/System.ComponentModel.xml",
+        "ref/netstandard1.0/zh-hant/System.ComponentModel.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.4.3.0.nupkg.sha512",
+        "system.componentmodel.nuspec"
+      ]
+    },
+    "System.Runtime.Serialization.Primitives/4.3.0": {
+      "sha512": "UnJ3PmpZrW8Tife2B4q+5BCLpIJZohjGpUCX3YggKodMD9b9iKgFzPCZeaBnOKupvbnl3i5X//NR9ao97H2c7g==",
+      "type": "package",
+      "path": "system.runtime.serialization.primitives/4.3.0",
+      "files": [
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Runtime.Serialization.Primitives.dll",
+        "lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "ref/netcore50/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netcore50/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.0/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.0/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.dll",
+        "ref/netstandard1.3/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/de/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/es/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/fr/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/it/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ja/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ko/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/ru/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hans/System.Runtime.Serialization.Primitives.xml",
+        "ref/netstandard1.3/zh-hant/System.Runtime.Serialization.Primitives.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/aot/lib/netcore50/System.Runtime.Serialization.Primitives.dll",
+        "system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
+        "system.runtime.serialization.primitives.nuspec"
+      ]
+    },
+    "HelloMarkdown/1.0.0": {
+      "type": "project",
+      "path": "../HelloMarkdown/HelloMarkdown.csproj",
+      "msbuildProject": "../HelloMarkdown/HelloMarkdown.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Eto.Platform.Gtk >= 2.4.1",
+      "Eto.Platform.Mac64 >= 2.4.1",
+      "Eto.Platform.Wpf >= 2.4.1",
+      "HelloMarkdown >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/pi/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown.Desktop/HelloMarkdown.Desktop.csproj",
+      "projectName": "HelloMarkdown.Desktop",
+      "projectPath": "/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown.Desktop/HelloMarkdown.Desktop.csproj",
+      "packagesPath": "/home/pi/.nuget/packages/",
+      "outputPath": "/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown.Desktop/obj",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/pi/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/HelloMarkdown.csproj": {
+              "projectPath": "/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/HelloMarkdown.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Eto.Platform.Wpf": {
+            "target": "Package",
+            "version": "2.4.1"
+          },
+          "Eto.Platform.Gtk": {
+            "target": "Package",
+            "version": "2.4.1"
+          },
+          "Eto.Platform.Mac64": {
+            "target": "Package",
+            "version": "2.4.1"
+          }
+        }
+      }
+    }
+  }
+}

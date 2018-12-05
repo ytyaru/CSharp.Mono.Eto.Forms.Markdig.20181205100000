@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <RootNamespace>HelloMarkdown</RootNamespace>
+    <PackageVersion>1.0</PackageVersion>
+    <Title>HelloMarkdown</Title>
+    <Copyright>Copyright © 2018</Copyright>
+    <Description>Description of HelloMarkdown</Description>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Eto.Forms" Version="2.4.1" />
+    <PackageReference Include="Markdown" Version="2.2.1" />
+    <PackageReference Include="Markdig" Version="0.15.4" />
+  </ItemGroup>
+  
+</Project>

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMarkdown", "HelloMarkdown\HelloMarkdown\HelloMarkdown.csproj", "{820E8492-1121-4C92-A8B7-2551B8BDF2EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMarkdown.Desktop", "HelloMarkdown\HelloMarkdown.Desktop\HelloMarkdown.Desktop.csproj", "{5395D528-AF55-408C-8AD7-39B1FB6690A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{820E8492-1121-4C92-A8B7-2551B8BDF2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820E8492-1121-4C92-A8B7-2551B8BDF2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820E8492-1121-4C92-A8B7-2551B8BDF2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820E8492-1121-4C92-A8B7-2551B8BDF2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5395D528-AF55-408C-8AD7-39B1FB6690A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5395D528-AF55-408C-8AD7-39B1FB6690A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5395D528-AF55-408C-8AD7-39B1FB6690A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5395D528-AF55-408C-8AD7-39B1FB6690A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/bin/Debug/netstandard1.6/HelloMarkdown.deps.json
+/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/bin/Debug/netstandard1.6/HelloMarkdown.dll
+/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/bin/Debug/netstandard1.6/HelloMarkdown.pdb
+/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/obj/Debug/netstandard1.6/HelloMarkdown.csprojAssemblyReference.cache
+/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/obj/Debug/netstandard1.6/HelloMarkdown.csproj.CoreCompileInputs.cache
+/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/obj/Debug/netstandard1.6/HelloMarkdown.AssemblyInfoInputs.cache
+/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/obj/Debug/netstandard1.6/HelloMarkdown.AssemblyInfo.cs
+/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/obj/Debug/netstandard1.6/HelloMarkdown.dll
+/tmp/work/Projects/HelloMarkdown/HelloMarkdown/HelloMarkdown/obj/Debug/netstandard1.6/HelloMarkdown.pdb
